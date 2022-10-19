@@ -1,0 +1,28 @@
+.title{
+    position: absolute;
+    top: 90px;
+    left: 52%;
+    text-transform: uppercase;
+}
+
+.section{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.generalProd{
+display: flex;
+flex-wrap: wrap;
+overflow-x: hidden;
+}
+
+.card{
+    border: solid #005792 2px;
+    height: 305px;
+    width: 226px;
+    margin: 10px;
+    border-radius: 3%;
+}

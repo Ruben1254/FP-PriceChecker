@@ -1,0 +1,32 @@
+.general{
+    background-color: #005792;
+    border: solid 1px #005792;
+    width: 182px;
+    height: 1000px;
+    position: fixed;
+    top: 95px;
+    left: 0%;
+    z-index: 100;
+}
+
+.sideList{
+    list-style: none;
+    color:#fd5f00;
+    
+}
+
+.link{
+    color: #fd5f00;
+    text-decoration: none;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+.liSide{
+    margin-top: 35px;
+    font-size: 28px;
+    top: 12px;
+    right: 11px;
+    position: relative; 
+    font-family: sans-serif;
+}

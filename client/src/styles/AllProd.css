@@ -1,0 +1,45 @@
+.searchInp{
+    position: absolute;
+    top: 105px;
+    left: 40%;
+    width: 240px;
+    height: 23px;
+    border: solid #005792 1px;
+    border-radius: 3%;
+}
+
+.section{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.generalProd{
+display: flex;
+flex-wrap: wrap;
+}
+
+.card{
+    border: solid #005792 2px;
+    height: 305px;
+    width: 226px;
+    margin: 10px;
+    border-radius: 3%;
+}
+
+.img{
+    height: 56%;
+    width: 90%;
+    position: relative;
+    top: 2%;
+    left: 9px;
+}
+
+.info{
+    text-decoration: none;
+    color: #00204a;
+    position: relative;
+    left: 13px;
+}

@@ -1,0 +1,12 @@
+.generalAdd{
+    position: absolute;
+    top: 136px;
+    left: 48%;
+    z-index: 1;
+}
+
+.formAdd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

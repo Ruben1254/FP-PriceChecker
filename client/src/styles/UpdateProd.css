@@ -1,0 +1,12 @@
+.generalUpd{
+    position: absolute;
+    top: 136px;
+    left: 48%;
+    z-index: 1;
+}
+
+.formUpd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

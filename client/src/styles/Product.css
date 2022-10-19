@@ -1,0 +1,37 @@
+.imgProd{
+    position: absolute;
+    top: 170px;
+    left: 20%;
+    height: 375px;
+    width: 375px;
+}
+
+.titleProd{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+.butProd{
+    margin: 5px 9px auto auto;
+    width: 85px;
+    height: 31px;
+    border-radius: 12%;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
