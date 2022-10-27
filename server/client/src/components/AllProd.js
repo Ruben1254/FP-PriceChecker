@@ -11,6 +11,7 @@ export const AllProd = (props) => {
     },[])
 
     const getItems = async() => {
+        console.log(process.env.REACT_APP_PORT)
         try{
             const results = await axios.get(`http://localhost:${process.env.REACT_APP_PORT}/all`);
             if(results.status === 200){
