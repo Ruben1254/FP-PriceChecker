@@ -13,8 +13,8 @@ dotenv.config();
 
 const app = express();
  
-app.listen(7904, () => {
-    console.log(`run on port 7904`)
+app.listen(process.env.PORT || 8080, () => {
+    console.log(`run on port ${process.env.PORT||8080}`)
 });
 
 app.use(cors());

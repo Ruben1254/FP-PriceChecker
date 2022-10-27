@@ -10,7 +10,7 @@ export const Category = (props) => {
 
     const showCateg = useCallback( async () => {
        
-        const results = await axios.get(`http://localhost:7904/all/${params.category}`)
+        const results = await axios.get(`http://localhost:${process.env.PORT}/all/${params.category}`)
         setItems(results.data) 
     },[items])
 
