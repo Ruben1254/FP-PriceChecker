@@ -14,7 +14,7 @@ export const Product = (props) => {
 
     const showProduct = async() => {
         try{
-            const result = await axios.get(`http://localhost:5000/item/${params.id}`)
+            const result = await axios.get(`http://localhost:7904/item/${params.id}`)
             setProduct(result.data)
             console.log(result.data)
         }
@@ -25,7 +25,7 @@ export const Product = (props) => {
 
     const deleteProduct = async() => {
         try{
-             await axios.delete(`http://localhost:5000/item/remove/${params.id}`)
+             await axios.delete(`http://localhost:7904/item/remove/${params.id}`)
         }
         catch(e){
             console.log(e)

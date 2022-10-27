@@ -20,7 +20,7 @@ export const AddProduct = (props) => {
 
     const AddData = async (e) => {
         try{
-            const result = await axios.post('http://localhost:5000/addItem', {
+            const result = await axios.post('http://localhost:7904/addItem', {
               brand: itemBrand,
               type: itemType,
               quantity: itemQuant,

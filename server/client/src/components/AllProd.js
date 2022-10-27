@@ -12,7 +12,7 @@ export const AllProd = (props) => {
 
     const getItems = async() => {
         try{
-            const results = await axios.get('http://localhost:5000/all');
+            const results = await axios.get('http://localhost:7904/all');
             if(results.status === 200){
                 setProducts(results.data)  
                 console.log(results.data)  
@@ -25,7 +25,7 @@ export const AllProd = (props) => {
 
     const search = async (e) =>{
         try{
-          const results = await axios.get(`http://localhost:5000/search?brand=${e}&type=${e}`);
+          const results = await axios.get(`http://localhost:7904/search?brand=${e}&type=${e}`);
           if(results.status === 200){
             setProducts(results.data);
           }

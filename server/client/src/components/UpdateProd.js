@@ -16,7 +16,7 @@ export const UpdateProd = (props) => {
 
     const updateItem = async(e) => {
         try{
-            const result = await axios.post(`http://localhost:5000/update/${params.id}`,{
+            const result = await axios.post(`http://localhost:7904/update/${params.id}`,{
               quantity: itemQuant,
               rami_levy: rmPrice,
               victory: vPrice,
