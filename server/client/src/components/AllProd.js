@@ -12,7 +12,7 @@ export const AllProd = (props) => {
 
     const getItems = async() => {
         try{
-            const results = await axios.get(`http://localhost:${process.env.PORT}/all`);
+            const results = await axios.get(`http://localhost:${process.env.REACT_APP_PORT}/all`);
             if(results.status === 200){
                 setProducts(results.data)  
                 console.log(results.data)  
@@ -25,7 +25,7 @@ export const AllProd = (props) => {
 
     const search = async (e) =>{
         try{
-          const results = await axios.get(`http://localhost:${process.env.PORT}/search?brand=${e}&type=${e}`);
+          const results = await axios.get(`http://localhost:${process.env.REACT_APP_PORT}/search?brand=${e}&type=${e}`);
           if(results.status === 200){
             setProducts(results.data);
           }

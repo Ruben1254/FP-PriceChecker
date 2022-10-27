@@ -14,7 +14,7 @@ export const Product = (props) => {
 
     const showProduct = async() => {
         try{
-            const result = await axios.get(`http://localhost:${process.env.PORT}/item/${params.id}`)
+            const result = await axios.get(`http://localhost:${process.env.REACT_APP_PORT}/item/${params.id}`)
             setProduct(result.data)
             console.log(result.data)
         }
@@ -25,7 +25,7 @@ export const Product = (props) => {
 
     const deleteProduct = async() => {
         try{
-             await axios.delete(`http://localhost:${process.env.PORT}/item/remove/${params.id}`)
+             await axios.delete(`http://localhost:${process.env.REACT_APP_PORT}/item/remove/${params.id}`)
         }
         catch(e){
             console.log(e)

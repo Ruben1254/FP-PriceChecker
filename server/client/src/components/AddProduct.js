@@ -20,7 +20,7 @@ export const AddProduct = (props) => {
 
     const AddData = async (e) => {
         try{
-            const result = await axios.post(`http://localhost:${process.env.PORT}/addItem`, {
+            const result = await axios.post(`http://localhost:${process.env.REACT_APP_PORT}/addItem`, {
               brand: itemBrand,
               type: itemType,
               quantity: itemQuant,
