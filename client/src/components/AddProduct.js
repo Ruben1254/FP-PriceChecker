@@ -71,7 +71,7 @@ export const AddProduct = (props) => {
                 <label>Category:</label><br/>
                 <select onChange={(e)=>setItemCat(e.target.value)}>
                     <option value="vegetables">vegetables</option>
-                    <option value="grocery">grocery</option>
+                    <option value="grocerie">grocerie</option>
                     <option value="cosmetics">cosmetics</option>
                     <option value="meat">meat</option>
                     <option value="fish">fish</option>
