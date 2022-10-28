@@ -10,7 +10,7 @@ export const Category = (props) => {
 
     const showCateg = useCallback( async () => {
        
-        const results = await axios.get(`http://localhost:${process.env.REACT_APP_PORT}/all/${params.category}`)
+        const results = await axios.get(`https://price-checker-il.herokuapp.com/all/${params.category}`)
         setItems(results.data) 
     },[items])
 

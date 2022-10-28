@@ -26,7 +26,7 @@ export const AllProd = (props) => {
 
     const search = async (e) =>{
         try{
-          const results = await axios.get(`http://localhost:${process.env.REACT_APP_PORT}/search?brand=${e}&type=${e}`);
+          const results = await axios.get(`https://price-checker-il.herokuapp.com/search?brand=${e}&type=${e}`);
           if(results.status === 200){
             setProducts(results.data);
           }

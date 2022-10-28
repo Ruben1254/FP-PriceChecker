@@ -16,7 +16,7 @@ export const UpdateProd = (props) => {
 
     const updateItem = async(e) => {
         try{
-            const result = await axios.post(`http://localhost:${process.env.REACT_APP_PORT}/update/${params.id}`,{
+            const result = await axios.post(`https://price-checker-il.herokuapp.com/update/${params.id}`,{
               quantity: itemQuant,
               rami_levy: rmPrice,
               victory: vPrice,
